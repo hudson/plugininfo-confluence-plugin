@@ -1,0 +1,14 @@
+<atlassian-plugin key="org.hudson.confluence.plugins.hudson-plugin-info-plugin"
+                  name="Hudson Plugin Info Macro">
+    <plugin-info>
+        <description>A Macro that inserts a box with the information of the specified Hudson plugin</description>
+        <version>1.4</version>
+        <vendor name="Hudson Community" url="http://hudson-ci.org/"/>
+    </plugin-info>
+
+    <macro name="hudson-plugin-info"
+           class="org.hudson.confluence.plugins.HudsonPluginInfoMacro"
+           key="hudson-plugin-info">
+        <description>Inserts an informational box with the information of a given Hudson plugin.</description>
+    </macro>
+</atlassian-plugin>
